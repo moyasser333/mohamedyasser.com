@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .join {
+        color: #e43d12;
+        background-color: #ebe9e1;
+        border-style: solid;
+        width: 122px; /* Added units (e.g., px) */
+        height: 40px; /* Added units (e.g., px) */
+        border-radius: 20px;
+        border-width: 1.7px;
+        border-color: #e43d12;
+        font-size: large;
+        cursor: pointer;
+        transition: .5s;
+      }
+      .join:hover{
+        box-shadow: 3px 3px 5px #e43d12;
+        transform: translateX(10px) translateY(10px);
+      }
+      .join:active{
+        transition: 0s;
+        background-color: #e43d12;
+        color: #ebe9e1;
+      }
+    </style>
+  </head>
+  <body style="background-color: #ebe9e1;">
+    <button class="join">JOIN</button>
+  </body>
+</html>
